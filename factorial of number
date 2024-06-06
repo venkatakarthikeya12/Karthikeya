@@ -7,6 +7,9 @@ for(i=0;i<n;i++)
 {
 fact*=i;
 }
-printf("factorial of number is %d",fact);
+printf("factorial of number %d is",fact);
 return 0;
 }
+
+input : 5
+output : factorial of number 5 is = 120

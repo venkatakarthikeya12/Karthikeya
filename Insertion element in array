@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main() {
+int n;
+printf("enter a size of an aray :");
+scanf("%d",&n);
+int a[n];
+printf("enter a elements in array:"); 
+for(int i=0;i<n;i++) {
+scanf("%d",&a[i]) }
+int p,e;
+printf("enter a position :");
+scanf("%d",&p);
+printf("enter a new element :");
+scanf("%d",&e);
+for(int i=0;i<n;i++) {
+a[i] = a[ i + 1]; }
+a[p - 1] = e;
+n--;
+for(int i=0;i<n;i++)
+printf(" new array : %d ", a[i]);
+return 0;
+}
+
+TNPUT : enter a size of an array : 5
+       enter a elements in array : 5 3 6 7 4 
+
+OUTPUT : enter a position : 3
+         enter a new element : 2
+        new array : 5 3 6 2 7 4

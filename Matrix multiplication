@@ -28,5 +28,14 @@ printf("multiplying two matrices :");
     return 0;
     }
 
-    INPUT : 
-    
+    INPUT : enter a rows 2
+            enter a columns 2
+            enter a elements of first matrix 
+             1  2 
+             3  4
+            enter a elements of second matrix
+              1  2
+              3  4
+OUTPUT : multiplication marix 
+            7  10
+           15  24
